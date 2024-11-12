@@ -1,0 +1,15 @@
+go to folder
+
+run
+gcc main.c lexer.c utils.c -o lexer
+or
+gcc main.c lexer.c utils.c ad.c parser.c -o parser_program
+
+run
+./lexer .\test\1.q
+          (path)
+
+Ubuntu:
+./lexer ./test/1.q
+
+
